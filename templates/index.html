@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ads Board</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}js/underscore-min.js"></script>
+    <script src="{{ STATIC_URL }}js/backbone-min.js"></script>
+    <script src="{{ STATIC_URL }}js/models.js"></script>
+    <script src="{{ STATIC_URL }}js/views.js"></script>
+    <script src="{{ STATIC_URL }}js/collections.js"></script>
+</head>
+<body>
+<h1>Ads Board</h1>
+<form id="search_form" action="post">
+    <label for="q">Ads search</label>
+    <input type="text" id="q" name="q" value="" />
+    <input type="submit" id="button" value="Search" />
+</form>
+
+<ul id="ads">
+
+</ul>
+<script type=text/template id="ad_template">
+    <li>
+        <%= title %>
+    </li>
+
+</script>
+</body>
+</html>

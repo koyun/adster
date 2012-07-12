@@ -1,0 +1,54 @@
+[
+    {
+        "model":"ads.Category",
+        "pk":1,
+        "fields":{
+            "name":"Hàng hóa",
+            "slug":"hang-hoa",
+            "description":"Hàng hóa",
+            "parent_id":""
+        }
+    },
+    {
+        "model":"ads.Category",
+        "pk":2,
+        "fields":{
+            "name":"Sách",
+            "slug":"sach",
+            "description":"Sách",
+            "parent_id":"1"
+        }
+    },
+    {
+        "model":"ads.Category",
+        "pk":3,
+        "fields":{
+            "name":"Quần áo",
+            "slug":"quan-ao",
+            "description":"Quần áo",
+            "parent_id":"1"
+        }
+    },
+    {
+        "model":"ads.Category",
+        "pk":1,
+        "fields":{
+            "name":"Điện tử",
+            "slug":"dien-tu",
+            "description":"Điện tử",
+            "parent_id":"1"
+        }
+    },
+    {
+        "model":"ads.Category",
+        "pk":1,
+        "fields":{
+            "name":"Âm nhạc/Nghệ thuật",
+            "slug":"am-nhac",
+            "description":"Âm nhạc/Nghệ thuật",
+            "parent_id":"1"
+        }
+    },
+
+
+]
